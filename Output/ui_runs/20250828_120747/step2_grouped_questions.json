@@ -1,0 +1,7147 @@
+[
+  {
+    "question_code": "N10",
+    "question_text": "Before we begin, please read and agree to the following terms and conditions: I understand that the information collected by Ifop and its client(s) will be used for research purposes only. All information will be analyzed with responses from others and no personally identifying information will be reported. I also agree to carefully read and answer each question. I understand that if it is shown I sped through and/or did not carefully read the questions, I may lose my opportunity to complete the survey.",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "I understand and give my consent to these uses and conditions",
+      "2": "I do NOT give my consent"
+    }
+  },
+  {
+    "question_code": "A01",
+    "question_text": "Which gender do you most identify with?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Male",
+      "2": "Female",
+      "3": "I identify otherwise",
+      "4": "I do not wish to disclose"
+    }
+  },
+  {
+    "question_code": "A03",
+    "question_text": "How old are you?",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "hAge",
+    "question_text": "Hidden: Age groups",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "18 to 34",
+      "2": "35 to 44",
+      "3": "45 to 54",
+      "4": "55 to 64",
+      "5": "65 to 77"
+    },
+    "recode_from": [
+      "A03"
+    ]
+  },
+  {
+    "question_code": "A05",
+    "question_text": "What was your total household income for 2023?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Less than $50,000",
+      "2": "Between $50,000 and $74,999",
+      "3": "Between $75,000 and $99,999",
+      "4": "Between $100,000 and $149,999",
+      "5": "Between $150,000 and $199,999",
+      "6": "Between $200,000 and $249,999",
+      "7": "Between $250,000 and $349,999",
+      "8": "Between $350,000 and $499,999",
+      "9": "Between $500,000 and $999,999",
+      "10": "Between $1,000,000 and $1,999,999",
+      "11": "$2,000,000 or more",
+      "91": "I don't know / Prefer not to answer"
+    }
+  },
+  {
+    "question_code": "A07",
+    "question_text": "Do you, or does anyone in your household work in any of the following industries?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "A07r1",
+        "question_text": "Market Research",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r2",
+        "question_text": "Advertising or Public Relations",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r3",
+        "question_text": "Marketing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r4",
+        "question_text": "Jewelry",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r5",
+        "question_text": "Fashion or Retail",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r6",
+        "question_text": "Media",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r7",
+        "question_text": "Automotive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r8",
+        "question_text": "Food & Beverage",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r9",
+        "question_text": "Consumer Tech",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r10",
+        "question_text": "Hospitality",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r11",
+        "question_text": "Healthcare",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A07r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "A09",
+    "question_text": "Please enter your zip code.",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "A11",
+    "question_text": "What state do you live in?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Maine",
+      "2": "New Hampshire",
+      "3": "Vermont",
+      "4": "Massachusetts",
+      "5": "Rhode Island",
+      "6": "Connecticut",
+      "7": "New York",
+      "8": "New Jersey",
+      "9": "Pennsylvania",
+      "10": "Ohio",
+      "11": "Indiana",
+      "12": "Illinois",
+      "13": "Michigan",
+      "14": "Wisconsin",
+      "15": "Minnesota",
+      "16": "Iowa",
+      "17": "Missouri",
+      "18": "North Dakota",
+      "19": "South Dakota",
+      "20": "Nebraska",
+      "21": "Kansas",
+      "22": "Delaware",
+      "23": "Maryland",
+      "24": "District of Columbia",
+      "25": "Virginia",
+      "26": "West Virginia",
+      "27": "North Carolina",
+      "28": "South Carolina",
+      "29": "Georgia",
+      "30": "Florida",
+      "31": "Kentucky",
+      "32": "Tennessee",
+      "33": "Alabama",
+      "34": "Mississippi",
+      "35": "Arkansas",
+      "36": "Louisiana",
+      "37": "Oklahoma",
+      "38": "Texas",
+      "39": "Montana",
+      "40": "Idaho",
+      "41": "Wyoming",
+      "42": "Colorado",
+      "43": "New Mexico",
+      "44": "Arizona",
+      "45": "Utah",
+      "46": "Nevada",
+      "47": "Washington",
+      "48": "Oregon",
+      "49": "California",
+      "50": "Alaska",
+      "51": "Hawaii"
+    }
+  },
+  {
+    "question_code": "A11_Region",
+    "question_text": "Hidden: State to Region recode",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "NORTHEAST",
+      "2": "MIDWEST",
+      "3": "SOUTH",
+      "4": "WEST"
+    },
+    "recode_from": [
+      "A11"
+    ]
+  },
+  {
+    "question_code": "A13",
+    "question_text": "Which of the following best describes the area in which you live?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Urban (you live in a large city)",
+      "2": "Suburban (you live in a small city or smaller community adjacent to a city)",
+      "3": "Rural (you live in the country or small town, far away from any major city)"
+    }
+  },
+  {
+    "question_code": "A15",
+    "question_text": "How would you describe your ethnicity/race?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "A15r1",
+        "question_text": "Black or African American",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r2",
+        "question_text": "Asian",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r3",
+        "question_text": "Caucasian / White",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r4",
+        "question_text": "Hispanic or Latino",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r5",
+        "question_text": "Middle Eastern or North African",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r6",
+        "question_text": "American Indian or Alaska Native",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r7",
+        "question_text": "Native Hawaiian or Other Pacific Islander",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r8",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A15r99",
+        "question_text": "Prefer not to answer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "hEthnicity",
+    "question_text": "Hidden: Ethnicity",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "WHITE",
+      "2": "BLACK",
+      "3": "ASIAN",
+      "4": "HISPANIC",
+      "5": "OTHER NET"
+    },
+    "recode_from": [
+      "A15r1",
+      "A15r2",
+      "A15r3",
+      "A15r4",
+      "A15r5",
+      "A15r6",
+      "A15r7",
+      "A15r8",
+      "A15r99"
+    ]
+  },
+  {
+    "question_code": "A19",
+    "question_text": "What best describes your current employment status?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Employed full-time",
+      "2": "Employed part-time",
+      "3": "Unemployed",
+      "4": "Self-employed",
+      "5": "Homemaker",
+      "6": "Student",
+      "7": "Retired",
+      "99": "Prefer not to answer"
+    }
+  },
+  {
+    "question_code": "A21",
+    "question_text": "What is your marital status?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Single",
+      "2": "Married",
+      "3": "Divorced",
+      "4": "Widowed",
+      "5": "Separated",
+      "6": "Living with significant other, not married",
+      "7": "In a relationship but not living with significant other",
+      "99": "Prefer not to say"
+    }
+  },
+  {
+    "question_code": "A23",
+    "question_text": "How many people are living in your household, including yourself?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "1 (I live alone)",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 or more"
+    }
+  },
+  {
+    "question_code": "A25",
+    "question_text": "Are there any children under 18 living in your household?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Yes",
+      "2": "No",
+      "3": "I prefer not to say"
+    }
+  },
+  {
+    "question_code": "A27",
+    "question_text": "What age is/are the child or children living in your household?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "A27r1",
+        "question_text": "Less than 2 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r2",
+        "question_text": "2-4 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r3",
+        "question_text": "5-8 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r4",
+        "question_text": "9-12 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r5",
+        "question_text": "13-15 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r6",
+        "question_text": "16-18 years old",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "A27r99",
+        "question_text": "Prefer not to say",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "B01",
+    "question_text": "In the past 2 years, have you spent (or shared in the purchase decision for) $500 or more on a single item in any of the following categories?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "B01r1",
+        "question_text": "Shoes / Sneakers",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r2",
+        "question_text": "Handbags",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r3",
+        "question_text": "Fine Jewelry (excluding engagement rings)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r4",
+        "question_text": "Watches",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r5",
+        "question_text": "Clothing / Ready-to-wear",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r6",
+        "question_text": "Accessories or small leather goods",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r7",
+        "question_text": "Beauty products",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r8",
+        "question_text": "Wireless headphones",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r9",
+        "question_text": "Alcohol (wine, beer, or spirits)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r10",
+        "question_text": "Home exercise equipment",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "B01r99",
+        "question_text": "I have not purchased items in any of these categories",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "B03r3",
+    "question_text": "Please indicate the most you have spent (for yourself or shared in the purchase decision for) on a single item of fine jewelry (excluding engagement rings) in the past 2 years.",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B05",
+    "question_text": "How many pieces of fine jewelry (single pieces with a price of $500 or more, excluding wedding rings and watches) do you own?",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "noanswerB05_n2",
+    "question_text": "I do not own any fine jewelry items with a price of $500 or more",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    }
+  },
+  {
+    "question_code": "B08",
+    "question_text": "Of the [PIPE IN VALUE FROM B05] items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "B08r1",
+        "question_text": "Rings",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r2",
+        "question_text": "Bracelets",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r3",
+        "question_text": "Necklaces",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r4",
+        "question_text": "Pendants (purchased separately to add to a necklace)",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r5",
+        "question_text": "Earrings",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r6",
+        "question_text": "Brooches/Pins and Clips",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "B08r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {}
+      }
+    ]
+  },
+  {
+    "question_code": "B12",
+    "question_text": "What is the approximate dollar value of the single most expensive piece of fine jewelry you own, excluding engagement or wedding rings and watches?",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "HFJTYPE",
+    "question_text": "Hidden: HFJTYPE",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Access: $500-$1,500",
+      "2": "Premium: $1,501-$3,000",
+      "3": "Luxe: $3,001-$5,999",
+      "4": "Luxe Plus: $6,000+"
+    },
+    "recode_from": [
+      "B03r3",
+      "B12"
+    ]
+  },
+  {
+    "question_code": "C01",
+    "question_text": "How many fine jewelry (single piece with a price of $500 or more) items have you purchased for yourself or shared in the purchase decision for in the past 2 years?",
+    "question_type": "integer",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05",
+    "question_text": "Of the [PIPE IN VALUE FROM C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "C05r1",
+        "question_text": "Rings",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r2",
+        "question_text": "Bracelets",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r3",
+        "question_text": "Necklaces",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r4",
+        "question_text": "Pendants (purchased separately to add to a necklace)",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r5",
+        "question_text": "Earrings",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r6",
+        "question_text": "Brooches/Pins and Clips",
+        "possible_answers": {}
+      },
+      {
+        "question_code": "C05r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {}
+      }
+    ]
+  },
+  {
+    "question_code": "C08",
+    "question_text": "Please indicate how much you typically spend on the following categories of fine jewelry, whether purchasing for yourself or sharing in the purchase decision. As a reminder, by fine jewelry, we mean any single piece of jewelry with a price of $500 or more, excluding engagement or wedding rings, and watches.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "C08r1",
+        "question_text": "Rings",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r2",
+        "question_text": "Bracelets",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r3",
+        "question_text": "Necklaces",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r4",
+        "question_text": "Pendants (purchased separately to add to a necklace)",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r5",
+        "question_text": "Earrings",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r6",
+        "question_text": "Brooches/Pins and Clips",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      },
+      {
+        "question_code": "C08r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "$500-$1,000",
+          "2": "$1,001-$3,000",
+          "3": "$3,001-$5,000",
+          "4": "$5,001-$7,500",
+          "5": "$7,501-$10,000",
+          "6": "$10,001-$15,000",
+          "7": "$15,001-$20,000",
+          "8": "$20,001 or more"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C10",
+    "question_text": "How often do you purchase (for yourself or share in the purchase decision for) the following categories of fine jewelry items? As a reminder, by fine jewelry, we mean any single piece of jewelry with a price of $500 or more, excluding engagement or wedding rings, and watches.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "C10r1",
+        "question_text": "Rings",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r2",
+        "question_text": "Bracelets",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r3",
+        "question_text": "Necklaces",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r4",
+        "question_text": "Pendants (purchased separately to add to a necklace)",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r5",
+        "question_text": "Earrings",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r6",
+        "question_text": "Brooches/Pins and Clips",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      },
+      {
+        "question_code": "C10r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Never",
+          "2": "Less often than every 10 years",
+          "3": "Once every 6-10 years",
+          "4": "Once every 4-5 years",
+          "5": "Once every 2-3 years",
+          "6": "Once a year",
+          "7": "Every 6 months",
+          "8": "Every 2-5 months",
+          "9": "Monthly"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C14",
+    "question_text": "For which of the following occasions have you purchased a piece of fine jewelry for yourself or shared in the purchase decision for?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "C14r1",
+        "question_text": "Birthday",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r2",
+        "question_text": "Anniversary",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r3",
+        "question_text": "Wedding",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r4",
+        "question_text": "Graduation",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r5",
+        "question_text": "Achievement/milestone (i.e., promotion, raise, new job)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r6",
+        "question_text": "Valentine's Day",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r7",
+        "question_text": "Christmas",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r8",
+        "question_text": "Hannukah",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r9",
+        "question_text": "Another holiday",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r10",
+        "question_text": "After having a child (push present)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r11",
+        "question_text": "When on vacation",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r12",
+        "question_text": "As a thank you",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r13",
+        "question_text": "Parties/social event/other occasion",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r14",
+        "question_text": "Mother's Day",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r15",
+        "question_text": "Jewelry wardrobe update",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r16",
+        "question_text": "For a date",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C14r98",
+        "question_text": "No occasion/just because",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C20",
+    "question_text": "From which of the following have you purchased fine jewelry in the past?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "C20r1",
+        "question_text": "Mono-brand Jewelry brand store/boutique",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r2",
+        "question_text": "Mono-brand Jewelry brand website",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r3",
+        "question_text": "Department store",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r4",
+        "question_text": "Department store website",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r5",
+        "question_text": "Multi-brand Jewelry store",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r6",
+        "question_text": "Multi-brand Jewelry website",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r7",
+        "question_text": "Consignment/Resale Physical Store (i.e., The RealReal)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r8",
+        "question_text": "Consignment/Resale Online (i.e., Poshmark, TheRealReal online, 1st dibs)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r9",
+        "question_text": "Trunk shows hosted by brands (in a store, hotel, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r10",
+        "question_text": "Amazon Luxury Stores",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C20r98",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C23",
+    "question_text": "Of the places you have purchased fine jewelry in the past, which is your primary or go-to channel?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Mono-brand Jewelry brand store/boutique",
+      "2": "Mono-brand Jewelry brand website",
+      "3": "Department store",
+      "4": "Department store website",
+      "5": "Multi-brand Jewelry store",
+      "6": "Multi-brand Jewelry website",
+      "7": "Consignment/Resale Physical Store (i.e., The RealReal)",
+      "8": "Consignment/Resale Online (i.e., Poshmark, TheRealReal online, 1st dibs)",
+      "9": "Trunk shows hosted by brands (in a store, hotel, etc.)",
+      "10": "Amazon Luxury Stores",
+      "98": "Other"
+    },
+    "recode_from": [
+      "C20r1",
+      "C20r2",
+      "C20r3",
+      "C20r4",
+      "C20r5",
+      "C20r6",
+      "C20r7",
+      "C20r8",
+      "C20r9",
+      "C20r10",
+      "C20r98"
+    ]
+  },
+  {
+    "question_code": "C26",
+    "question_text": "Which of the following people and places do you turn to for fine jewelry inspiration? Think about where you look to help cultivate your personal style for jewelry.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "C26r1",
+        "question_text": "Friends",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r2",
+        "question_text": "Family",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r3",
+        "question_text": "People I see \"on the street\"",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r4",
+        "question_text": "Characters on TV/in movies or TV series",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r5",
+        "question_text": "Celebrities (actors, musicians, artists)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r6",
+        "question_text": "Social Media Influencers (Tik Tokers, YouTubers, Instagrammers)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r7",
+        "question_text": "Sales Associate/Personal Shopper/Stylist",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r8",
+        "question_text": "Mono-brand Jewelry Boutiques (e.g., displays, store windows, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r9",
+        "question_text": "Multi-brand Jewelry Stores (e.g., displays, store windows, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r10",
+        "question_text": "Department Stores (e.g., displays, store windows, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r11",
+        "question_text": "In-store customer events hosted by a brand/retailer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r12",
+        "question_text": "Online customer events hosted by a brand/retailer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r13",
+        "question_text": "Fashion Shows or Fashion Show Coverage",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r14",
+        "question_text": "Outdoor Advertising (e.g., Billboards, posters, murals, bus shelters)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C26r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C28",
+    "question_text": "Which of the following types of media and digital platforms do you turn to for fine jewelry inspiration? Think about where you look to help cultivate your personal style for jewelry.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "C28r1",
+        "question_text": "Print Magazines",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r2",
+        "question_text": "Online Magazines/Magazine Websites",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r3",
+        "question_text": "Magazine Social Media Accounts",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r4",
+        "question_text": "Digital-Only Fashion Media (e.g., WhoWhatWear, Refinery29)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r5",
+        "question_text": "Printed catalogues from brands/retailers",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r6",
+        "question_text": "Brand Websites",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r7",
+        "question_text": "Brand Social Media Accounts",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r8",
+        "question_text": "Multi-brand or Department Store Websites",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r9",
+        "question_text": "Multi-brand or Department Store Social Media",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r10",
+        "question_text": "Online only Fashion Sites (e.g., Net-A-Porter, Farfetch)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r11",
+        "question_text": "Amazon.com",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r12",
+        "question_text": "Facebook",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r13",
+        "question_text": "X (formerly Twitter)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r14",
+        "question_text": "Instagram",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r15",
+        "question_text": "Threads by Instagram",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r16",
+        "question_text": "TikTok",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r17",
+        "question_text": "YouTube",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r18",
+        "question_text": "Snapchat",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r19",
+        "question_text": "Pinterest",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r20",
+        "question_text": "Reddit",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r21",
+        "question_text": "BeReal",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r22",
+        "question_text": "Podcasts",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r23",
+        "question_text": "Emails from Brands & Retailers",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r24",
+        "question_text": "Emails from fashion critics, influencers/bloggers, etc.",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r25",
+        "question_text": "Online Games/Metaverse Platforms (e.g., Fortnite, SandBox, Roblox, Sims, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r26",
+        "question_text": "Online search engines (e.g., Google, Bing, Yahoo, etc.)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C28r99",
+        "question_text": "None",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C30",
+    "question_text": "Which of these do you rely on most as your #1 source of fine jewelry inspiration?",
+    "question_type": "single-select",
+    "possible_answers": {},
+    "recode_from": [
+      "C26r1",
+      "C26r2",
+      "C26r3",
+      "C26r4",
+      "C26r5",
+      "C26r6",
+      "C26r7",
+      "C26r8",
+      "C26r9",
+      "C26r10",
+      "C26r11",
+      "C26r12",
+      "C26r13",
+      "C26r14",
+      "C26r99",
+      "C28r1",
+      "C28r2",
+      "C28r3",
+      "C28r4",
+      "C28r5",
+      "C28r6",
+      "C28r7",
+      "C28r8",
+      "C28r9",
+      "C28r10",
+      "C28r11",
+      "C28r12",
+      "C28r13",
+      "C28r14",
+      "C28r15",
+      "C28r16",
+      "C28r17",
+      "C28r18",
+      "C28r19",
+      "C28r20",
+      "C28r21",
+      "C28r22",
+      "C28r23",
+      "C28r24",
+      "C28r25",
+      "C28r26",
+      "C28r99"
+    ]
+  },
+  {
+    "question_code": "C40",
+    "question_text": "Have you ever received fine jewelry (single item $500 or more) as a gift?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  {
+    "question_code": "C44",
+    "question_text": "For which of the following occasions have you received fine jewelry (single item $500 or more) as a gift?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "C44r1",
+        "question_text": "Birthday",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r2",
+        "question_text": "Anniversary",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r3",
+        "question_text": "Wedding",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r4",
+        "question_text": "Graduation",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r5",
+        "question_text": "Achievement/milestone (i.e., promotion, raise, new job)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r6",
+        "question_text": "Valentine's Day",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r7",
+        "question_text": "Christmas",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r8",
+        "question_text": "Hannukah",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r9",
+        "question_text": "Another holiday",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r10",
+        "question_text": "After having a child (push present)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r11",
+        "question_text": "When on vacation",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r12",
+        "question_text": "As a thank you",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r13",
+        "question_text": "Parties/social event/other occasion",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r14",
+        "question_text": "Mother's Day",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r15",
+        "question_text": "Jewelry wardrobe update",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r16",
+        "question_text": "For a date",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "C44r98",
+        "question_text": "No occasion/just because",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "C46",
+    "question_text": "How involved are you in selecting the fine jewelry (single item $500 or more) that you receive as a gift?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Not at all involved",
+      "2": "Not very involved",
+      "3": "Very involved",
+      "4": "Extremely involved"
+    }
+  },
+  {
+    "question_code": "D01",
+    "question_text": "On which occasions do you usually wear fine jewelry?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D01r1",
+        "question_text": "Formal events (e.g., weddings, galas)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r2",
+        "question_text": "Casual gatherings (e.g., parties, dinner outings)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r3",
+        "question_text": "At work",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r4",
+        "question_text": "Date nights",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r5",
+        "question_text": "Holidays",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r6",
+        "question_text": "Religious settings",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r7",
+        "question_text": "On a day-to-day basis / Daily errands",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r8",
+        "question_text": "Working out (e.g., yoga, pilates)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D01r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D03",
+    "question_text": "Below are some reasons one may purchase fine jewelry. Please choose the ones that are most relevant to you.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D03r1",
+        "question_text": "To boost my self-confidence",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r2",
+        "question_text": "To express my creativity / To show off my individuality",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r3",
+        "question_text": "To make a truly unforgettable impression",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r4",
+        "question_text": "To exude timeless elegance, refinement, and subtlety",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r5",
+        "question_text": "To feel energized, vibrant / To boost my mood",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r6",
+        "question_text": "To feel empowered, in control",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r7",
+        "question_text": "To look high class / To project status",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r8",
+        "question_text": "To stand out / To be admired by others",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r9",
+        "question_text": "To look sexy / To feel more attractive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r10",
+        "question_text": "To feel like I'm in the know, ahead of trend / To be stylish",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r11",
+        "question_text": "To feel accomplished and successful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r12",
+        "question_text": "To be more respected, taken seriously",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r13",
+        "question_text": "To have a good professional image",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r15",
+        "question_text": "To have a versatile piece that can be worn for any occasion / in many different ways",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r16",
+        "question_text": "To add a final touch whenever I get dressed up",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r17",
+        "question_text": "To << fit in >> with my social group",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r18",
+        "question_text": "To feel like a better version of myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r19",
+        "question_text": "It's an heirloom investment piece that will last for generations",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r20",
+        "question_text": "It's an attractive investment piece that I can sell later at a higher price",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r21",
+        "question_text": "To treat myself / To reward myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r22",
+        "question_text": "To create my signature look / To elevate my style",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D03r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D07",
+    "question_text": "When choosing a fine jewelry brand, the most important factors I consider are...",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D07r1",
+        "question_text": "Superior quality",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r2",
+        "question_text": "Exceptional craftsmanship",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r3",
+        "question_text": "Offers styles that I don't find elsewhere",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r4",
+        "question_text": "Sustainability (e.g., responsible sourcing, end-to-end transparency, traceability protocols) / Social ethics",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r5",
+        "question_text": "Worth the price",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r6",
+        "question_text": "Expertise in fine jewelry manufacturing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r7",
+        "question_text": "Use of precious or rare stones / materials",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r8",
+        "question_text": "Knowledgeable sales associates",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r9",
+        "question_text": "Constant newness",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r10",
+        "question_text": "Extensive collections",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r11",
+        "question_text": "Elevated in-store experience",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r12",
+        "question_text": "Beautiful designs",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r13",
+        "question_text": "Worn by a celebrity/influencer/KOL I like",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r14",
+        "question_text": "Prestige of the brand",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r15",
+        "question_text": "Heritage and history in fine jewelry (e.g., founder, materials)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r16",
+        "question_text": "High resale value",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r17",
+        "question_text": "It is a brand for people like me",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D07r98",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D09",
+    "question_text": "Please indicate your level of agreement with the following statements when it comes to fine jewelry. Slide the bar to the side that best describes how you feel.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "D09r1",
+        "question_text": "I prefer branded jewelry",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r2",
+        "question_text": "I would consider buying lab-grown diamonds",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r3",
+        "question_text": "I want people to recognize the brand of jewelry I wear",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r4",
+        "question_text": "I like trying new jewelry brands that come out on the market",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r5",
+        "question_text": "I conduct extensive research prior to purchasing jewelry",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r6",
+        "question_text": "I like to mix and match jewelry pieces from different brands",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r7",
+        "question_text": "I prefer subtle, minimalist, delicate jewelry pieces",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      },
+      {
+        "question_code": "D09r8",
+        "question_text": "I prefer to invest in versatile fine jewelry pieces, suitable for every occasion",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D15",
+    "question_text": "When purchasing fine jewelry, how satisfied are you with the fine jewelry brand choices available to you?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "1-NOT AT ALL SATISFIED",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10-EXTREMELY SATISFIED"
+    }
+  },
+  {
+    "question_code": "D19",
+    "question_text": "Which of the following materials would you consider when buying a piece of fine jewelry?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D19r1",
+        "question_text": "Gold",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r2",
+        "question_text": "Silver",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r3",
+        "question_text": "Rose gold",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r4",
+        "question_text": "White gold",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r5",
+        "question_text": "Platinum",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r6",
+        "question_text": "Diamond",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r7",
+        "question_text": "Pearl",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r8",
+        "question_text": "Mother of pearl",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r9",
+        "question_text": "Ruby",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r10",
+        "question_text": "Sapphire",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r11",
+        "question_text": "Emerald",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r12",
+        "question_text": "Other gemstones (e.g. amethyst, opal, topaz)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D19r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D21",
+    "question_text": "Which of the following fine jewelry brands have you heard of?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D21r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D21r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "hD21_Netsr1",
+    "question_text": "HERITAGE - D21 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "D21r1",
+      "D21r2",
+      "D21r3",
+      "D21r4",
+      "D21r6",
+      "D21r7",
+      "D21r8",
+      "D21r10",
+      "D21r12",
+      "D21r13",
+      "D21r15",
+      "D21r16",
+      "D21r21",
+      "D21r22",
+      "D21r23",
+      "D21r27",
+      "D21r28"
+    ]
+  },
+  {
+    "question_code": "hD21_Netsr2",
+    "question_text": "FASHION - D21 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "D21r5",
+      "D21r11",
+      "D21r14",
+      "D21r17",
+      "D21r18"
+    ]
+  },
+  {
+    "question_code": "hD21_Netsr3",
+    "question_text": "CONTEMPORARY - D21 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "D21r9",
+      "D21r19",
+      "D21r20",
+      "D21r24",
+      "D21r25",
+      "D21r26"
+    ]
+  },
+  {
+    "question_code": "D23",
+    "question_text": "Which of the following fine jewelry brands have you ever owned?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D23r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D23r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ],
+    "recode_from": [
+      "D21r1",
+      "D21r2",
+      "D21r3",
+      "D21r4",
+      "D21r5",
+      "D21r6",
+      "D21r7",
+      "D21r8",
+      "D21r9",
+      "D21r10",
+      "D21r11",
+      "D21r12",
+      "D21r13",
+      "D21r14",
+      "D21r15",
+      "D21r16",
+      "D21r17",
+      "D21r18",
+      "D21r19",
+      "D21r20",
+      "D21r21",
+      "D21r22",
+      "D21r23",
+      "D21r24",
+      "D21r25",
+      "D21r26",
+      "D21r27",
+      "D21r28",
+      "D21r98",
+      "D21r99"
+    ]
+  },
+  {
+    "question_code": "D25",
+    "question_text": "Of the fine jewelry brands you own, which is your favorite?",
+    "question_type": "single-select",
+    "possible_answers": {},
+    "recode_from": [
+      "D23r1",
+      "D23r2",
+      "D23r3",
+      "D23r4",
+      "D23r5",
+      "D23r6",
+      "D23r7",
+      "D23r8",
+      "D23r9",
+      "D23r10",
+      "D23r11",
+      "D23r12",
+      "D23r13",
+      "D23r14",
+      "D23r15",
+      "D23r16",
+      "D23r17",
+      "D23r18",
+      "D23r19",
+      "D23r20",
+      "D23r21",
+      "D23r22",
+      "D23r23",
+      "D23r24",
+      "D23r25",
+      "D23r26",
+      "D23r27",
+      "D23r28",
+      "D23r98",
+      "D23r99"
+    ]
+  },
+  {
+    "question_code": "D27",
+    "question_text": "How much do you feel you know about the following types of jewelry?",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "D27r1",
+        "question_text": "Pearls",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "D27r2",
+        "question_text": "Diamonds",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "D27r3",
+        "question_text": "Sapphires",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "D27r4",
+        "question_text": "Emeralds",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D29",
+    "question_text": "How much are you interested in pearls / jewelry with pearls? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "1-NOT AT ALL INTERESTED",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5-VERY INTERESTED"
+    }
+  },
+  {
+    "question_code": "hD29",
+    "question_text": "Hidden: D29 recode",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "PEARL NON-CONSIDERERS",
+      "2": "PEARL CONSIDERERS"
+    },
+    "recode_from": [
+      "D29"
+    ]
+  },
+  {
+    "question_code": "D30",
+    "question_text": "What words come to mind when you think about pearls / jewelry with pearls? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D30r1",
+        "question_text": "Boring",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r2",
+        "question_text": "Stylish",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r3",
+        "question_text": "Trending",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r4",
+        "question_text": "Classic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r5",
+        "question_text": "Elegance",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r6",
+        "question_text": "Rarity",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r7",
+        "question_text": "Superior quality",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r8",
+        "question_text": "Status symbol",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r9",
+        "question_text": "Prestigious",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r10",
+        "question_text": "Enjoyment",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r11",
+        "question_text": "Traditional",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r12",
+        "question_text": "Youthful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r13",
+        "question_text": "Sophisticated",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r14",
+        "question_text": "Modern",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r15",
+        "question_text": "Bold",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r16",
+        "question_text": "Old-fashioned / Dated",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r17",
+        "question_text": "Timeless",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r18",
+        "question_text": "Expensive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r19",
+        "question_text": "Garish",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r20",
+        "question_text": "Heritage",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r21",
+        "question_text": "Craftsmanship",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r22",
+        "question_text": "Sustainable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r23",
+        "question_text": "Cheap",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D30r98",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D31",
+    "question_text": "Do you own any of the following styles of pearls / jewelry with pearls (costing $500 or more)? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "D31r1",
+        "question_text": "Pearl strands (necklace or bracelet)",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D31r2",
+        "question_text": "Pearl studs",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D31r3",
+        "question_text": "Jewelry items with pearls as a component",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D31r4",
+        "question_text": "Jewelry items with mother-of-pearl as a component",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "hD31r1",
+    "question_text": "PEARLS - Hidden: D31 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "D31r1",
+      "D31r2"
+    ]
+  },
+  {
+    "question_code": "hD31r2",
+    "question_text": "JEWELRY WITH PEARLS - Hidden: D31 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "D31r3",
+      "D31r4"
+    ]
+  },
+  {
+    "question_code": "D32",
+    "question_text": "Do you own any of the following categories of pearls / jewelry with pearls (costing $500 or more)? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "D32r1",
+        "question_text": "Rings (excluding wedding rings)",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D32r2",
+        "question_text": "Bracelets",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D32r3",
+        "question_text": "Necklaces",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D32r4",
+        "question_text": "Pendants (purchased separately to add to a necklace)",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D32r5",
+        "question_text": "Earrings",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      {
+        "question_code": "D32r6",
+        "question_text": "Brooches / Pins and Clips",
+        "possible_answers": {
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D33",
+    "question_text": "Please indicate your level of agreement with the following statements when it comes to pearls / jewelry with pearls. This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "D33r1",
+        "question_text": "I prefer branded pearls / jewelry with pearls",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        }
+      },
+      {
+        "question_code": "D33r2",
+        "question_text": "I want people to recognize the brand of pearls / jewelry with pearls I wear",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        }
+      },
+      {
+        "question_code": "D33r3",
+        "question_text": "I like trying new pearl brands that come out on the market",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        }
+      },
+      {
+        "question_code": "D33r4",
+        "question_text": "I prefer subtle, minimalist, delicate pearl pieces",
+        "possible_answers": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "D34",
+    "question_text": "Of the fine jewelry brands you are aware of, which do you think of for pearls / jewelry with pearls? This can include standalone pearls (strands or studs) as well as any jewelry items which have pearls as a component, including mother-of-pearl.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D34r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D34r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ],
+    "recode_from": [
+      "D21r1",
+      "D21r2",
+      "D21r3",
+      "D21r4",
+      "D21r5",
+      "D21r6",
+      "D21r7",
+      "D21r8",
+      "D21r9",
+      "D21r10",
+      "D21r11",
+      "D21r12",
+      "D21r13",
+      "D21r14",
+      "D21r15",
+      "D21r16",
+      "D21r17",
+      "D21r18",
+      "D21r19",
+      "D21r20",
+      "D21r21",
+      "D21r22",
+      "D21r23",
+      "D21r24",
+      "D21r25",
+      "D21r26",
+      "D21r27",
+      "D21r28",
+      "D21r98",
+      "D21r99"
+    ]
+  },
+  {
+    "question_code": "D36",
+    "question_text": "Of the fine jewelry brands you own, which do you own pearls / jewelry with pearls from? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl).",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "D36r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r89",
+        "question_text": "Unbranded",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "D36r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ],
+    "recode_from": [
+      "D23r1",
+      "D23r2",
+      "D23r3",
+      "D23r4",
+      "D23r5",
+      "D23r6",
+      "D23r7",
+      "D23r8",
+      "D23r9",
+      "D23r10",
+      "D23r11",
+      "D23r12",
+      "D23r13",
+      "D23r14",
+      "D23r15",
+      "D23r16",
+      "D23r17",
+      "D23r18",
+      "D23r19",
+      "D23r20",
+      "D23r21",
+      "D23r22",
+      "D23r23",
+      "D23r24",
+      "D23r25",
+      "D23r26",
+      "D23r27",
+      "D23r28",
+      "D23r98",
+      "D23r99"
+    ]
+  },
+  {
+    "question_code": "D38",
+    "question_text": "How likely are you to purchase pearls / jewelry with pearls within the next 12 months?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "I would definitely not purchase pearls / jewelry with pearls within the next 12 months",
+      "2": "I would probably not purchase pearls / jewelry with pearls within the next 12 months",
+      "3": "I might or might not purchase pearls / jewelry with pearls within the next 12 months",
+      "4": "I would probably purchase pearls / jewelry with pearls within the next 12 months",
+      "5": "I would definitely purchase pearls / jewelry with pearls within the next 12 months"
+    }
+  },
+  {
+    "question_code": "E01",
+    "question_text": "Please select up to 10 words that best describe your personality.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E01r1",
+        "question_text": "Adventurous / Daring",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r2",
+        "question_text": "Caring",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r3",
+        "question_text": "Charming",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r4",
+        "question_text": "Confident",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r5",
+        "question_text": "Cosmopolitan",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r6",
+        "question_text": "Creative / Imaginative",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r7",
+        "question_text": "Demanding",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r8",
+        "question_text": "Dependable / Reliable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r9",
+        "question_text": "Determined",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r10",
+        "question_text": "Driven / Ambitious",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r11",
+        "question_text": "Easy-going",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r12",
+        "question_text": "Eclectic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r13",
+        "question_text": "Friendly / Kind",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r14",
+        "question_text": "Fun-loving",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r15",
+        "question_text": "Genuine / Honest",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r16",
+        "question_text": "High energy / Enthusiastic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r17",
+        "question_text": "Independent",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r18",
+        "question_text": "Modest / Humble",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r19",
+        "question_text": "Mysterious",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r20",
+        "question_text": "Non-conformist / Unconventional / Bold",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r21",
+        "question_text": "Outspoken",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r22",
+        "question_text": "Passionate",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r23",
+        "question_text": "Sensitive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r24",
+        "question_text": "Shy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r25",
+        "question_text": "Smart / Intellectual / Thoughtful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r26",
+        "question_text": "Sociable / Outgoing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r27",
+        "question_text": "Sophisticated / Cultured / Worldly",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r28",
+        "question_text": "Strong / Powerful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r29",
+        "question_text": "Successful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r30",
+        "question_text": "Unique / Different",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E01r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E02",
+    "question_text": "Which of the following activities do you enjoy doing in your spare time? Please select only the activities you do regularly.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E02r1",
+        "question_text": "Attending live performances (e.g., music concerts / festivals, sporting events, plays, comedy shows)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r2",
+        "question_text": "Going to the opera",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r3",
+        "question_text": "Visiting art exhibitions or museums",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r4",
+        "question_text": "Going to private members-only clubs / exclusive VIP events",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r5",
+        "question_text": "Going to parties / social gatherings (e.g., bars, clubs)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r6",
+        "question_text": "Going out to dinner",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r7",
+        "question_text": "Going to the movies",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r8",
+        "question_text": "Streaming movies or shows (e.g., Netflix, Hulu, Amazon Prime Video, Disney+, HBO Max)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r9",
+        "question_text": "Browsing social media platforms",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r10",
+        "question_text": "Creating content to share on social media (e.g., posts, stories, short videos, reels)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r11",
+        "question_text": "Listening to podcasts",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r12",
+        "question_text": "Doing artistic activities (e.g., dancing, singing, drawing, painting, photographing, playing a musical instrument)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r13",
+        "question_text": "Working out (in the gym or at home, work out classes)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r14",
+        "question_text": "Doing outdoor activities (e.g., hiking, biking, running)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r15",
+        "question_text": "Taking wellness / mental health courses (e.g., stress management, mindfulness meditation)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r16",
+        "question_text": "Hanging out with friends",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r17",
+        "question_text": "Going out with my partner / Dating someone",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r18",
+        "question_text": "Gaming, playing video games",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r19",
+        "question_text": "Gardening / houseplant care",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r20",
+        "question_text": "Spending time in nature",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r21",
+        "question_text": "Volunteering / Community outreach",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r22",
+        "question_text": "Attending religious services",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r23",
+        "question_text": "Cooking / Baking (as a hobby)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r24",
+        "question_text": "Reading books, comics, or magazines (paper or digital version)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r25",
+        "question_text": "Reading newspapers (paper or digital version)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r26",
+        "question_text": "Taking care of my appearance (e.g., applying skincare / makeup, styling my hair, getting my nails done)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r27",
+        "question_text": "Shopping online or in-store (e.g., clothes, shoes, accessories, handbags, skincare, body care, makeup products)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r28",
+        "question_text": "Shopping at luxury retailers (e.g., Hermes, Chanel, Dior, Louis Vuitton, Balenciaga, Gucci)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r29",
+        "question_text": "Going to beauty salons / spas",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r30",
+        "question_text": "Using high-tech beauty tools (e.g., LED light therapy face mask, face roller / massager, body brush, facial cleansing device)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r98",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E02r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E03",
+    "question_text": "Here is a list of activities. For each one, please indicate how often you do them.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "E03r1",
+        "question_text": "Going to fine dining restaurants",
+        "possible_answers": {
+          "1": "Less often / Never",
+          "2": "Once a year",
+          "3": "Once every 6 months",
+          "4": "Once every 2-3 months",
+          "5": "Once a month",
+          "6": "Once every 2-3 weeks",
+          "7": "Once a week or more"
+        }
+      },
+      {
+        "question_code": "E03r2",
+        "question_text": "Going to super premium hotels / resorts",
+        "possible_answers": {
+          "1": "Less often / Never",
+          "2": "Once a year",
+          "3": "Once every 6 months",
+          "4": "Once every 2-3 months",
+          "5": "Once a month",
+          "6": "Once every 2-3 weeks",
+          "7": "Once a week or more"
+        }
+      },
+      {
+        "question_code": "E03r3",
+        "question_text": "Using a luxury concierge service (e.g., airport and car service, access to exclusive events, golf outings)",
+        "possible_answers": {
+          "1": "Less often / Never",
+          "2": "Once a year",
+          "3": "Once every 6 months",
+          "4": "Once every 2-3 months",
+          "5": "Once a month",
+          "6": "Once every 2-3 weeks",
+          "7": "Once a week or more"
+        }
+      },
+      {
+        "question_code": "E03r4",
+        "question_text": "Going to luxury spas",
+        "possible_answers": {
+          "1": "Less often / Never",
+          "2": "Once a year",
+          "3": "Once every 6 months",
+          "4": "Once every 2-3 months",
+          "5": "Once a month",
+          "6": "Once every 2-3 weeks",
+          "7": "Once a week or more"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E04",
+    "question_text": "Everyone has different goals in life. What are the most important things in your life?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E04r1",
+        "question_text": "To spend quality time with my family / my spouse, partner",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r2",
+        "question_text": "To maintain meaningful and lasting friendships",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r3",
+        "question_text": "To be physically healthy / healthier",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r4",
+        "question_text": "To improve my mental / emotional wellbeing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r5",
+        "question_text": "To be more influential and powerful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r6",
+        "question_text": "To have a fulfilling job / To find my career purpose",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r7",
+        "question_text": "To be successful at work",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r8",
+        "question_text": "To continuously grow, learn, and improve myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r9",
+        "question_text": "To build wealth and achieve financial freedom",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r10",
+        "question_text": "To have a positive impact on society and the environment",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r11",
+        "question_text": "To earn prestige and social standing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r12",
+        "question_text": "To feel safe and secure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r13",
+        "question_text": "To be at peace with myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r14",
+        "question_text": "To explore the world / To experience new cultures",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r15",
+        "question_text": "To express myself and individuality through creative activities (e.g., art, music, writing, photography, dance)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r16",
+        "question_text": "To be free from social pressure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E04r17",
+        "question_text": "To enjoy life to the fullest",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E05",
+    "question_text": "Among the following types of people, which are your own role models or sources of inspiration?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E05r1",
+        "question_text": "A champion athlete",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r2",
+        "question_text": "A fashion trendsetter / \"It-Girl\"",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r3",
+        "question_text": "A free spirit who doesn't play by the rules",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r4",
+        "question_text": "A changemaker fighting for environmental and climate justice",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r5",
+        "question_text": "A visionary leader / inspiring entrepreneur",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r6",
+        "question_text": "A supermodel",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r7",
+        "question_text": "A fearless explorer / adventurer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r8",
+        "question_text": "A protector who looks after others",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r9",
+        "question_text": "An artist (e.g., actress, musician, writer, painter, singer) with a unique style and vision",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r10",
+        "question_text": "A successful social media influencer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r11",
+        "question_text": "A scientific / tech pioneer",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r12",
+        "question_text": "A supermom who is making it happen, both in the workplace and at home",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r13",
+        "question_text": "A fun-loving person who doesn't take life too seriously",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r14",
+        "question_text": "A fierce advocate for women's empowerment",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E05r15",
+        "question_text": "A graceful and charismatic princess",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E06",
+    "question_text": "Please read each statement below and state whether you agree or disagree.",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "E06r1",
+        "question_text": "I am particularly interested in modern art and contemporary creation",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r2",
+        "question_text": "People often ask my opinion (or check my social media pages) on luxury / designer apparel and accessories (e.g., fine jewelry, clothes, shoes, handbags, wallets)",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r3",
+        "question_text": "I am always among the first to buy the latest fashion or beauty trends",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r4",
+        "question_text": "I am willing to pay a premium for luxury brands that are environmentally conscious",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r5",
+        "question_text": "I am willing to pay a premium for luxury products that are made from the finest materials and have unique designs",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r6",
+        "question_text": "I regularly browse websites or read magazines specializing in luxury items (e.g., Haute Couture clothing, high-end watches, luggage, fine art, and collectibles)",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r7",
+        "question_text": "I like having luxury products that only connoisseurs can appreciate",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r8",
+        "question_text": "I am a mission-minded shopper; shopping is something I do only when absolutely necessary",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      },
+      {
+        "question_code": "E06r9",
+        "question_text": "Please select \"Strongly agree\"",
+        "possible_answers": {
+          "1": "Strongly disagree",
+          "2": "Somewhat disagree",
+          "3": "Somewhat agree",
+          "4": "Strongly agree"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E07",
+    "question_text": "How would you best describe your personal fashion style?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E07r1",
+        "question_text": "Simple / Basic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r2",
+        "question_text": "Functional / Practical",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r3",
+        "question_text": "Sporty / Athleisure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r4",
+        "question_text": "Smart casual",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r5",
+        "question_text": "Sophisticated / Upscale",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r6",
+        "question_text": "Classic / Formal",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r7",
+        "question_text": "Understated Elegance / Timeless",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r8",
+        "question_text": "Edgy / Bold / Unconventional",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r9",
+        "question_text": "Effortless Chic / Minimalist",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r10",
+        "question_text": "Fashion-forward / Stylish",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r11",
+        "question_text": "Cute / Girly / Romantic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r12",
+        "question_text": "Colorful / Fun / Vibrant",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r13",
+        "question_text": "Sexy / Spicy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r14",
+        "question_text": "Glamorous",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r15",
+        "question_text": "Streetwear / Urban cool",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r16",
+        "question_text": "Conservative",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r17",
+        "question_text": "Gender Neutral / Unisex",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r18",
+        "question_text": "Feminine",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r19",
+        "question_text": "Serious / Professional-looking",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r20",
+        "question_text": "Creative / Avant-Garde / Unique",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r21",
+        "question_text": "Dopamine dressing (also called \"mood enhancement dressing\")",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r22",
+        "question_text": "Bohemian / Boho",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r23",
+        "question_text": "Sleek / Polished / Groomed",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r24",
+        "question_text": "Vintage inspired / Retro",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r25",
+        "question_text": "Cozy / Laid-back / Comfortable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r26",
+        "question_text": "Preppy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r27",
+        "question_text": "Versatile",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r28",
+        "question_text": "Rocker",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r29",
+        "question_text": "Hip Hop",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r30",
+        "question_text": "Fashion trends from the 80s, 90s or Y2K",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E07r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E08",
+    "question_text": "Which of the following social media platforms do you use regularly?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E08r1",
+        "question_text": "Instagram",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r2",
+        "question_text": "Facebook",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r3",
+        "question_text": "TikTok",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r4",
+        "question_text": "Snapchat",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r5",
+        "question_text": "Twitch",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r6",
+        "question_text": "Pinterest",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r7",
+        "question_text": "X (formerly Twitter)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r8",
+        "question_text": "YouTube",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r9",
+        "question_text": "LinkedIn",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r10",
+        "question_text": "Reddit",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r11",
+        "question_text": "Discord",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r12",
+        "question_text": "Threads by Instagram",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r13",
+        "question_text": "Telegram",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r14",
+        "question_text": "BeReal",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r15",
+        "question_text": "Tumblr",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r16",
+        "question_text": "WeChat",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r17",
+        "question_text": "Red Book",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r18",
+        "question_text": "Weibo",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "E08r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "E09",
+    "question_text": "Which of the following categories do you prioritize with your income after necessities?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "E09r1",
+        "question_text": "Travel",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r2",
+        "question_text": "Experiences (e.g., live sporting events, live music or shows, museum exhibitions)",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r3",
+        "question_text": "Technology",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r4",
+        "question_text": "House projects",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r5",
+        "question_text": "Personal hobbies",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r6",
+        "question_text": "Charitable contributions / donations",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r7",
+        "question_text": "Clothing, footwear, and accessories",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r8",
+        "question_text": "Beauty products (skincare, makeup, hair care) and personal care items or treatments / procedures",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r9",
+        "question_text": "Spoiling my loved ones",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r10",
+        "question_text": "Saving for the future",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      },
+      {
+        "question_code": "E09r11",
+        "question_text": "Paying off my loans",
+        "possible_answers": {
+          "1": "1st Priority",
+          "2": "2nd Priority",
+          "3": "3rd Priority"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "F01",
+    "question_text": "Which of the following activities do you enjoy doing in your spare time? Please select only the activities you do regularly.",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "F01r1",
+        "question_text": "Attending live performances (e.g., music concerts / festivals, sporting events, plays, comedy shows)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r2",
+        "question_text": "Going to the opera",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r3",
+        "question_text": "Visiting art exhibitions or museums",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r4",
+        "question_text": "Going to private members-only clubs / exclusive VIP events",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r5",
+        "question_text": "Going to parties / social gatherings (e.g., bars, clubs)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r6",
+        "question_text": "Going out to dinner",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r7",
+        "question_text": "Going to the movies",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r8",
+        "question_text": "Streaming movies or shows (e.g., Netflix, Hulu, Amazon Prime Video, Disney+, HBO Max)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r9",
+        "question_text": "Browsing social media platforms",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r10",
+        "question_text": "Creating content to share on social media (e.g., posts, stories, short videos, reels)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r11",
+        "question_text": "Listening to podcasts",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r12",
+        "question_text": "Doing artistic activities (e.g., dancing, singing, drawing, painting, photographing, playing a musical instrument)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r13",
+        "question_text": "Working out (in the gym or at home, work out classes)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r14",
+        "question_text": "Doing outdoor activities (e.g., hiking, biking, running)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r15",
+        "question_text": "Taking wellness / mental health courses (e.g., stress management, mindfulness meditation)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r16",
+        "question_text": "Hanging out with friends",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r17",
+        "question_text": "Going out with my partner / Dating someone",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r18",
+        "question_text": "Gaming, playing video games",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r19",
+        "question_text": "Gardening / houseplant care",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r20",
+        "question_text": "Spending time in nature",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r21",
+        "question_text": "Volunteering / Community outreach",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r22",
+        "question_text": "Attending religious services",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r23",
+        "question_text": "Cooking / Baking (as a hobby)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r24",
+        "question_text": "Reading books, comics, or magazines (paper or digital version)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r25",
+        "question_text": "Reading newspapers (paper or digital version)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r26",
+        "question_text": "Taking care of my appearance (e.g., applying skincare / makeup, styling my hair, getting my nails done)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r27",
+        "question_text": "Shopping online or in-store (e.g., clothes, shoes, accessories, handbags, skincare, body care, makeup products)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r28",
+        "question_text": "Shopping at luxury retailers (e.g., Hermes, Chanel, Dior, Louis Vuitton, Balenciaga, Gucci)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r29",
+        "question_text": "Going to beauty salons / spas",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r30",
+        "question_text": "Using high-tech beauty tools (e.g., LED light therapy face mask, face roller / massager, body brush, facial cleansing device)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r98",
+        "question_text": "Other",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F01r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "F02",
+    "question_text": "Everyone has different goals in life. What are the most important things in your life?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "F02r1",
+        "question_text": "To spend quality time with my family / my spouse, partner",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r2",
+        "question_text": "To maintain meaningful and lasting friendships",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r3",
+        "question_text": "To be physically healthy / healthier",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r4",
+        "question_text": "To improve my mental / emotional wellbeing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r5",
+        "question_text": "To be more influential and powerful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r6",
+        "question_text": "To have a fulfilling job / To find my career purpose",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r7",
+        "question_text": "To be successful at work",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r8",
+        "question_text": "To continuously grow, learn, and improve myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r9",
+        "question_text": "To build wealth and achieve financial freedom",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r10",
+        "question_text": "To have a positive impact on society and the environment",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r11",
+        "question_text": "To earn prestige and social standing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r12",
+        "question_text": "To feel safe and secure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r13",
+        "question_text": "To be at peace with myself",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r14",
+        "question_text": "To explore the world / To experience new cultures",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r15",
+        "question_text": "To express myself and individuality through creative activities (e.g., art, music, writing, photography, dance)",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r16",
+        "question_text": "To be free from social pressure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F02r17",
+        "question_text": "To enjoy life to the fullest",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "F03",
+    "question_text": "How would you best describe your personal fashion style?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "F03r1",
+        "question_text": "Simple / Basic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r2",
+        "question_text": "Functional / Practical",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r3",
+        "question_text": "Sporty / Athleisure",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r4",
+        "question_text": "Smart casual",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r5",
+        "question_text": "Sophisticated / Upscale",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r6",
+        "question_text": "Classic / Formal",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r7",
+        "question_text": "Understated Elegance / Timeless",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r8",
+        "question_text": "Edgy / Bold / Unconventional",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r9",
+        "question_text": "Effortless Chic / Minimalist",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r10",
+        "question_text": "Fashion-forward / Stylish",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r11",
+        "question_text": "Cute / Girly / Romantic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r12",
+        "question_text": "Colorful / Fun / Vibrant",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r13",
+        "question_text": "Sexy / Spicy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r14",
+        "question_text": "Glamorous",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r15",
+        "question_text": "Streetwear / Urban cool",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r16",
+        "question_text": "Conservative",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r17",
+        "question_text": "Gender Neutral / Unisex",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r18",
+        "question_text": "Feminine",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r19",
+        "question_text": "Serious / Professional-looking",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r20",
+        "question_text": "Creative / Avant-Garde / Unique",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r21",
+        "question_text": "Dopamine dressing (also called \"mood enhancement dressing\")",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r22",
+        "question_text": "Bohemian / Boho",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r23",
+        "question_text": "Sleek / Polished / Groomed",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r24",
+        "question_text": "Vintage inspired / Retro",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r25",
+        "question_text": "Cozy / Laid-back / Comfortable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r26",
+        "question_text": "Preppy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r27",
+        "question_text": "Versatile",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r28",
+        "question_text": "Rocker",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r29",
+        "question_text": "Hip Hop",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r30",
+        "question_text": "Fashion trends from the 80s, 90s or Y2K",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F03r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "F04",
+    "question_text": "Which of the following fine jewelry brands have you heard of?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "F04r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F04r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "hF04_Netsr1",
+    "question_text": "HERITAGE - F04 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "F04r1",
+      "F04r2",
+      "F04r3",
+      "F04r4",
+      "F04r6",
+      "F04r7",
+      "F04r8",
+      "F04r10",
+      "F04r12",
+      "F04r13",
+      "F04r15",
+      "F04r16",
+      "F04r21",
+      "F04r22",
+      "F04r23",
+      "F04r27",
+      "F04r28"
+    ]
+  },
+  {
+    "question_code": "hF04_Netsr2",
+    "question_text": "FASHION - F04 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "F04r5",
+      "F04r11",
+      "F04r14",
+      "F04r17",
+      "F04r18"
+    ]
+  },
+  {
+    "question_code": "hF04_Netsr3",
+    "question_text": "CONTEMPORARY - F04 nets",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Selected",
+      "0": "Not Selected"
+    },
+    "recode_from": [
+      "F04r9",
+      "F04r19",
+      "F04r20",
+      "F04r24",
+      "F04r25",
+      "F04r26"
+    ]
+  },
+  {
+    "question_code": "F05",
+    "question_text": "Which of the following fine jewelry brands have you ever owned?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "F05r1",
+        "question_text": "BOUCHERON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r2",
+        "question_text": "BUCCELLATI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r3",
+        "question_text": "BVLGARI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r4",
+        "question_text": "CARTIER",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r5",
+        "question_text": "CHANEL",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r6",
+        "question_text": "CHAUMET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r7",
+        "question_text": "CHOPARD",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r8",
+        "question_text": "DAMIANI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r9",
+        "question_text": "DAVID YURMAN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r10",
+        "question_text": "DE BEERS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r11",
+        "question_text": "DIOR",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r12",
+        "question_text": "FRED",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r13",
+        "question_text": "GRAFF",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r14",
+        "question_text": "GUCCI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r15",
+        "question_text": "H. STERN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r16",
+        "question_text": "HARRY WINSTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r17",
+        "question_text": "HERMES",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r18",
+        "question_text": "LOUIS VUITTON",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r19",
+        "question_text": "MARCO BICEGO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r20",
+        "question_text": "MESSIKA",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r21",
+        "question_text": "MIKIMOTO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r22",
+        "question_text": "PASPALEY",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r23",
+        "question_text": "PIAGET",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r24",
+        "question_text": "POMELLATO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r25",
+        "question_text": "REPOSSI",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r26",
+        "question_text": "ROBERTO COIN",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r27",
+        "question_text": "TIFFANY & CO",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r28",
+        "question_text": "VAN CLEEF & ARPELS",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r98",
+        "question_text": "Other, specify:",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "F05r99",
+        "question_text": "None of these",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ],
+    "recode_from": [
+      "F04r1",
+      "F04r2",
+      "F04r3",
+      "F04r4",
+      "F04r5",
+      "F04r6",
+      "F04r7",
+      "F04r8",
+      "F04r9",
+      "F04r10",
+      "F04r11",
+      "F04r12",
+      "F04r13",
+      "F04r14",
+      "F04r15",
+      "F04r16",
+      "F04r17",
+      "F04r18",
+      "F04r19",
+      "F04r20",
+      "F04r21",
+      "F04r22",
+      "F04r23",
+      "F04r24",
+      "F04r25",
+      "F04r26",
+      "F04r27",
+      "F04r28",
+      "F04r98",
+      "F04r99"
+    ]
+  },
+  {
+    "question_code": "F06",
+    "question_text": "How much do you feel you know about the following types of jewelry?",
+    "question_type": "grid",
+    "sub_questions": [
+      {
+        "question_code": "F06r1",
+        "question_text": "Pearls",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "F06r2",
+        "question_text": "Diamonds",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "F06r3",
+        "question_text": "Sapphires",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      },
+      {
+        "question_code": "F06r4",
+        "question_text": "Emeralds",
+        "possible_answers": {
+          "1": "1-I KNOW NOTHING",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10-I KNOW A LOT"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "F07",
+    "question_text": "How much are you interested in pearls / jewelry with pearls?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "1-NOT AT ALL INTERESTED",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5-VERY INTERESTED"
+    }
+  },
+  {
+    "question_code": "hF07",
+    "question_text": "Hidden: F07 recode",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "PEARL NON-CONSIDERERS",
+      "2": "PEARL CONSIDERERS"
+    },
+    "recode_from": [
+      "F07"
+    ]
+  },
+  {
+    "question_code": "P05",
+    "question_text": "Based on what you have seen, how appealing do you consider this brand?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Not at all appealing",
+      "2": "Not very appealing",
+      "3": "Somewhat appealing",
+      "4": "Very appealing",
+      "5": "Extremely appealing"
+    }
+  },
+  {
+    "question_code": "P08",
+    "question_text": "Compared with other jewelry brands you know, how unique would you say this brand is?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Not at all unique",
+      "2": "Not very unique",
+      "3": "Somewhat unique",
+      "4": "Very unique",
+      "5": "Extremely unique"
+    }
+  },
+  {
+    "question_code": "P10",
+    "question_text": "Please indicate how much you agree or disagree with the following statement: \"I feel like this brand is designed for someone like me.\"",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Somewhat agree",
+      "4": "Strongly agree"
+    }
+  },
+  {
+    "question_code": "P12",
+    "question_text": "Based on what you have seen about the brand, how likely are you to seek out more information (e.g., seek out where it is sold, look it up online or on social media, etc.)?",
+    "question_type": "single-select",
+    "possible_answers": {
+      "1": "I would definitely not seek out more information",
+      "2": "I would probably not seek out more information",
+      "3": "I might or might not seek out more information",
+      "4": "I would probably seek out more information",
+      "5": "I would definitely seek out more information"
+    }
+  },
+  {
+    "question_code": "P15",
+    "question_text": "Based on what you recall about the brand, which of the following adjectives would you use to describe it?",
+    "question_type": "multi-select",
+    "sub_questions": [
+      {
+        "question_code": "P15r1",
+        "question_text": "Adventurous",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r2",
+        "question_text": "Authentic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r3",
+        "question_text": "Youthful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r4",
+        "question_text": "Exclusive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r5",
+        "question_text": "Natural",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r6",
+        "question_text": "Playful",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r7",
+        "question_text": "Romantic",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r8",
+        "question_text": "Feminine",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r9",
+        "question_text": "Empowering",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r10",
+        "question_text": "Sophisticated",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r11",
+        "question_text": "Luxurious",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r12",
+        "question_text": "Exciting",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r13",
+        "question_text": "Modern / Trendy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r14",
+        "question_text": "Innovative / Creative",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r15",
+        "question_text": "Sustainable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r16",
+        "question_text": "Boring",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r17",
+        "question_text": "Old-fashioned / Dated",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r18",
+        "question_text": "Cheap",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r19",
+        "question_text": "Expensive",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r20",
+        "question_text": "Confusing",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r21",
+        "question_text": "Pretentious / Showy",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r22",
+        "question_text": "Intimidating",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r23",
+        "question_text": "Ordinary",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      },
+      {
+        "question_code": "P15r24",
+        "question_text": "Unreliable",
+        "possible_answers": {
+          "1": "Selected",
+          "0": "Not Selected"
+        }
+      }
+    ]
+  },
+  {
+    "question_code": "X15",
+    "question_text": "In the field below, please feel free to provide any feedback about your experience taking this survey today. If you do not have any feedback, simply click on the \"Next\" button below.",
+    "question_type": "integer",
+    "possible_answers": {}
+  }
+]

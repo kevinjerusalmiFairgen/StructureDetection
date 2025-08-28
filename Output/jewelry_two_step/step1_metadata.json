@@ -1,5 +1,25 @@
 [
   {
+    "question_code": "record",
+    "question_text": "record: Record number",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "uuid",
+    "question_text": "uuid: Participant identifier",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "date",
+    "question_text": "date: Completion time and date",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "markers",
+    "question_text": "markers: Acquired markers",
+    "possible_answers": {}
+  },
+  {
     "question_code": "status",
     "question_text": "status: Participant status",
     "possible_answers": {
@@ -34,6 +54,11 @@
     }
   },
   {
+    "question_code": "straightliner_tracker",
+    "question_text": "straightliner_tracker: Recording number of straightliner questions",
+    "possible_answers": {}
+  },
+  {
     "question_code": "OE_Flagr1",
     "question_text": "OE_Flagr1: Bad word - OE question checks",
     "possible_answers": {
@@ -48,6 +73,11 @@
       "0": "NO TO: 6 or more consecutive consonants",
       "1": "6 or more consecutive consonants"
     }
+  },
+  {
+    "question_code": "bad_words_tracker",
+    "question_text": "bad_words_tracker: Recording of bad words",
+    "possible_answers": {}
   },
   {
     "question_code": "N10",
@@ -66,6 +96,11 @@
       "3": "I identify otherwise",
       "4": "I do not wish to disclose"
     }
+  },
+  {
+    "question_code": "A03",
+    "question_text": "A03: How old are you?",
+    "possible_answers": {}
   },
   {
     "question_code": "hAge",
@@ -191,6 +226,21 @@
       "0": "NO TO: None of these",
       "1": "None of these"
     }
+  },
+  {
+    "question_code": "A09",
+    "question_text": "A09: Please enter your zip code.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "STATE",
+    "question_text": "STATE: Hidden: autopunches the STATE, based on the respondent's zipcode",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "CITY",
+    "question_text": "CITY: Hidden: autopunches the DMA code, based on the respondent's zipcode",
+    "possible_answers": {}
   },
   {
     "question_code": "vA09_State",
@@ -443,6 +493,11 @@
     }
   },
   {
+    "question_code": "hScreener_timer",
+    "question_text": "hScreener_timer: Screener timer (Minutes)",
+    "possible_answers": {}
+  },
+  {
     "question_code": "B01r1",
     "question_text": "B01r1: Shoes / Sneakers - In the past 2 years, have you spent (or shared in the purchase decision for) $500 or more on a single item in any of the following categories?",
     "possible_answers": {
@@ -531,12 +586,67 @@
     }
   },
   {
+    "question_code": "B03r3",
+    "question_text": "B03r3: Please indicate the most you have spent (for yourself or shared in the purchase decision for) on a single item of fine jewelry (excluding engagement rings) in the past 2 years.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B05",
+    "question_text": "B05: How many pieces of fine jewelry (single pieces with a price of $500 or more, excluding wedding rings and watches) do you own?",
+    "possible_answers": {}
+  },
+  {
     "question_code": "noanswerB05_n2",
     "question_text": "noanswerB05_n2: How many pieces of fine jewelry (single pieces with a price of $500 or more, excluding wedding rings and watches) do you own?: I do not own any fine jewelry items with a price of $500 or more - No Answer",
     "possible_answers": {
       "0": "NO TO: How many pieces of fine jewelry (single pieces with a price of $500 or more, excluding wedding rings and watches)",
       "1": "How many pieces of fine jewelry (single pieces with a price of $500 or more, excluding wedding rings and watches) do you"
     }
+  },
+  {
+    "question_code": "B08r1",
+    "question_text": "B08r1: Rings - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r2",
+    "question_text": "B08r2: Bracelets - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r3",
+    "question_text": "B08r3: Necklaces - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r4",
+    "question_text": "B08r4: Pendants (purchased separately to add to a necklace) - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r5",
+    "question_text": "B08r5: Earrings - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r6",
+    "question_text": "B08r6: Brooches/Pins and Clips - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r98",
+    "question_text": "B08r98: Other, specify: - Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B12",
+    "question_text": "B12: What is the approximate dollar value of the single most expensive piece of fine jewelry you own, excluding engagement or wedding rings and watches?",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "section_B_timer",
+    "question_text": "section_B_timer: Section B timer (Minutes)",
+    "possible_answers": {}
   },
   {
     "question_code": "hQuota",
@@ -557,12 +667,52 @@
     }
   },
   {
+    "question_code": "C01",
+    "question_text": "C01: How many fine jewelry (single piece with a price of $500 or more) items have you purchased for yourself or shared in the purchase decision for in the past 2 years?",
+    "possible_answers": {}
+  },
+  {
     "question_code": "C01_FLAG",
     "question_text": "C01_FLAG: Hidden: CO1 Flag.",
     "possible_answers": {
       "0": "Pass",
       "1": "Fail"
     }
+  },
+  {
+    "question_code": "C05r1",
+    "question_text": "C05r1: Rings - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r2",
+    "question_text": "C05r2: Bracelets - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r3",
+    "question_text": "C05r3: Necklaces - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r4",
+    "question_text": "C05r4: Pendants (purchased separately to add to a necklace) - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how man",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r5",
+    "question_text": "C05r5: Earrings - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category.",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r6",
+    "question_text": "C05r6: Brooches/Pins and Clips - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in ea",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r98",
+    "question_text": "C05r98: Other, specify: - Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each cate",
+    "possible_answers": {}
   },
   {
     "question_code": "C08r1",
@@ -1523,6 +1673,11 @@
     }
   },
   {
+    "question_code": "section_C_timer",
+    "question_text": "section_C_timer: Section C timer (Minutes)",
+    "possible_answers": {}
+  },
+  {
     "question_code": "D01r1",
     "question_text": "D01r1: Formal events (e.g., weddings, galas) - On which occasions do you usually wear fine jewelry?",
     "possible_answers": {
@@ -2361,6 +2516,11 @@
       "0": "NO TO: None of these",
       "1": "None of these"
     }
+  },
+  {
+    "question_code": "D21r98oe",
+    "question_text": "D21r98oe: Which of the following fine jewelry brands have you heard of? - Other, specify:",
+    "possible_answers": {}
   },
   {
     "question_code": "hD21_Netsr1",
@@ -3542,6 +3702,11 @@
     }
   },
   {
+    "question_code": "D36r97oe",
+    "question_text": "D36r97oe: Of the fine jewelry brands you own, which do you own pearls / jewelry with pearls from? This can include standalone pearls, strands, studs, or pearls in other shapes/formats (including mother of pearl). - Other, specify:",
+    "possible_answers": {}
+  },
+  {
     "question_code": "D38",
     "question_text": "D38: How likely are you to purchase pearls / jewelry with pearls within the next 12 months?",
     "possible_answers": {
@@ -3551,6 +3716,11 @@
       "4": "I would probably purchase pearls / jewelry with pearls within the next 12 months",
       "5": "I would definitely purchase pearls / jewelry with pearls within the next 12 months"
     }
+  },
+  {
+    "question_code": "section_D_timer",
+    "question_text": "section_D_timer: Section D timer (Minutes)",
+    "possible_answers": {}
   },
   {
     "question_code": "E01r1",
@@ -4978,6 +5148,11 @@
     }
   },
   {
+    "question_code": "section_E_timer",
+    "question_text": "section_E_timer: Section E timer (Minutes)",
+    "possible_answers": {}
+  },
+  {
     "question_code": "F01r1",
     "question_text": "F01r1: Attending live performances (e.g., music concerts / festivals, sporting events, plays, comedy shows) - Which of the following activities do you enjoy doing in your spare time? Please select only the activities you do regularly.",
     "possible_answers": {
@@ -5866,6 +6041,11 @@
     }
   },
   {
+    "question_code": "F04r98oe",
+    "question_text": "F04r98oe: Which of the following fine jewelry brands have you heard of? - Other, specify:",
+    "possible_answers": {}
+  },
+  {
     "question_code": "hF04_Netsr1",
     "question_text": "hF04_Netsr1: HERITAGE - F04 nets",
     "possible_answers": {
@@ -6213,6 +6393,11 @@
     }
   },
   {
+    "question_code": "section_F_timer",
+    "question_text": "section_F_timer: Section F timer (Minutes)",
+    "possible_answers": {}
+  },
+  {
     "question_code": "P05",
     "question_text": "P05: Based on what you have seen, how appealing do you consider this brand? [rel img1.png] [rel img1_big.png] Click here [rel img1_big.png] to see a larger version of this image.",
     "possible_answers": {
@@ -6448,6 +6633,16 @@
     }
   },
   {
+    "question_code": "section_P_timer",
+    "question_text": "section_P_timer: Section P timer (Minutes)",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "X15",
+    "question_text": "X15: In the field below, please feel free to provide any feedback about your experience taking this survey today. If you do not have any feedback, simply click on the \">\" button below.",
+    "possible_answers": {}
+  },
+  {
     "question_code": "hQUALITY_FAIL",
     "question_text": "hQUALITY_FAIL: Hidden: if failed 3+ flags",
     "possible_answers": {
@@ -6462,6 +6657,11 @@
       "1": "Online Survey (list=0)",
       "2": "Phone test (list=1)"
     }
+  },
+  {
+    "question_code": "qtime",
+    "question_text": "qtime: Total Interview Time",
+    "possible_answers": {}
   },
   {
     "question_code": "vos",
@@ -6486,6 +6686,11 @@
     }
   },
   {
+    "question_code": "vosr15oe",
+    "question_text": "vosr15oe: Operating System - Other",
+    "possible_answers": {}
+  },
+  {
     "question_code": "vbrowser",
     "question_text": "vbrowser: Browser",
     "possible_answers": {
@@ -6506,6 +6711,11 @@
       "15": "Text Browser",
       "16": "Other"
     }
+  },
+  {
+    "question_code": "vbrowserr15oe",
+    "question_text": "vbrowserr15oe: Browser - Other",
+    "possible_answers": {}
   },
   {
     "question_code": "vmobiledevice",
@@ -6531,11 +6741,91 @@
     }
   },
   {
+    "question_code": "start_date",
+    "question_text": "start_date: Survey start time",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "hTerm",
+    "question_text": "hTerm: Reason for terming",
+    "possible_answers": {}
+  },
+  {
     "question_code": "vdropout",
     "question_text": "vdropout: Last seen question",
     "possible_answers": {
       "min": 1,
       "max": 81
     }
+  },
+  {
+    "question_code": "source",
+    "question_text": "source: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "decLang",
+    "question_text": "decLang: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "list",
+    "question_text": "list: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "userAgent",
+    "question_text": "userAgent: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "rid",
+    "question_text": "rid: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "dcua",
+    "question_text": "dcua: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "url",
+    "question_text": "url: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "session",
+    "question_text": "session: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "Language",
+    "question_text": "Language: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "Country",
+    "question_text": "Country: Captured variable",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "B08r98oe",
+    "question_text": "B08r98oe: Of the 0 items of fine jewelry ($500 or more per piece) you own, how many are in each of the following categories? - Other, specify:",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C05r98oe",
+    "question_text": "C05r98oe: Of the [pipe: C01] fine jewelry (single piece with a price of $500 or more) items you have purchased for yourself or shared in the purchase decision in the past 2 years, please indicate how many pieces were purchased in each category. - Other, s",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C08r98oe",
+    "question_text": "C08r98oe: Please indicate how much you typically spend on the following categories of fine jewelry, whether purchasing for yourself or sharing in the purchase decision. As a reminder, by fine jewelry, we mean any single piece of jewelry with a price of $5",
+    "possible_answers": {}
+  },
+  {
+    "question_code": "C10r98oe",
+    "question_text": "C10r98oe: How often do you purchase (for yourself or share in the purchase decision for) the following categories of fine jewelry items? As a reminder, by fine jewelry, we mean any single piece of jewelry with a price of $500 or more, excluding engagement",
+    "possible_answers": {}
   }
 ]
